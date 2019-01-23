@@ -1,0 +1,56 @@
+/* Logo colors:
+cat: #f2af58
+dog/border: #d1bc8e
+text: #39b89e
+first line text font: Pacifico
+second line text font: Montserrat
+*/
+
+/* Sidenav */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ccddff;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px 8px 15px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+.sidenav a:hover {
+    color: #39b89e;
+    font-size: 22px;
+    background-color: #f2af58;
+    border-radius: 15px;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav img {
+    display: inline-block;
+    margin-left: 5px;;
+    width: 150px;
+}
