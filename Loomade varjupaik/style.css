@@ -6,6 +6,9 @@ first line text font: Pacifico
 second line text font: Montserrat
 */
 
+.container {
+    position: relative;
+}
 /* Sidenav */
 .sidenav {
     height: 100%;
@@ -53,4 +56,12 @@ second line text font: Montserrat
     display: inline-block;
     margin-left: 5px;;
     width: 150px;
+}
+
+/* header
+ */
+
+.header {
+    maargin-left: 200px;
+    border: 1px solid black;
 }
